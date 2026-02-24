@@ -1,1 +1,23 @@
 @charset "UTF-8";
+
+:root {
+    --main-background: #f5f5f5;
+    --text: #222222;
+    --inverted-text: #ffffff;
+    --emphasis: #0077ff;
+    --inverted-emphasis: #66bbff;
+    --card-background: #ffffff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
+    background-color: var(--main-background);
+    color: var(--text);
+}
