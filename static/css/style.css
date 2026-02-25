@@ -99,3 +99,18 @@ main {
     color: var(--inverted-emphasis);
     transition: 0.3s;
 }
+
+#details {
+    grid-column: 2;
+}
+
+article {
+    background-color: var(--card-background);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+article h2 {
+    color: var(--emphasis);
+}
