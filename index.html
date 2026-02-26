@@ -25,7 +25,7 @@
 
     <main>
         <section id="record">
-            <img src="static/img/Samuel_Campelo.jpg" alt="Selfie de Samuel Campelo" class="photo">
+            <img src="static/img/Samuel_Campelo.jpg" alt="Selfie de Samuel Campelo" id="photo">
             <h1>Samuel Campelo</h1>
 
             <p>
@@ -45,20 +45,32 @@
         <section id="details">
             <article id="skills">
                 <h2><i class="fa-solid fa-brain"></i> My skills</h2>
-
+                
                 <div class="skill-container">
                     <div class="item">
                         <div class="info">
                             <span class="name">
                                 Python
                             </span>
-
+                            
                             <span class="icon">
                                 <i class="fa-brands fa-python"></i>
                             </span>
                         </div>
                     </div>
 
+                    <div class="item">
+                        <div class="info">
+                            <span class="name">
+                                C
+                            </span>
+            
+                            <span class="icon">
+                                <i class="fa-solid fa-c"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
                     <div class="item">
                         <div class="info">
                             <span class="name">
@@ -103,18 +115,6 @@
 
                             <span class="icon">
                                 <i class="fa-solid fa-database"></i>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-                            <span class="name">
-                                C
-                            </span>
-
-                            <span class="icon">
-                                <i class="fa-solid fa-c"></i>
                             </span>
                         </div>
                     </div>
@@ -165,12 +165,45 @@
 
             <article id="projects">
                 <h2><i class="fa-solid fa-trowel-bricks"></i> My projects</h2>
+
+                <div id="projects-container">
+                    <div class="project">
+                        <img src="static/img/EncrypTexT.png" alt="EncrypTexT print screen" class="photo">
+                        
+                        <div class="project-info">
+                            <p class="date">2025</p>
+                            <h3 class="title">EncrypTexT</h3>
+
+                            <p>Cryptography and Base Conversion Application in Python</p>
+
+                            <details class="description">
+                                <summary>Learn More...</summary>
+                                <p style="margin-bottom: 10px;">
+                                    Development of a desktop application in Python for encrypting and decrypting text 
+                                    using different representations: binary, hexadecimal, octal, and ZENIT POLAR cipher.
+                                </p>
+                                
+                                <p style="margin-bottom: 10px;">
+                                    The graphical interface was built using the CustomTkinter library, providing a modern 
+                                    and intuitive visual experience.
+                                </p>
+
+                                <p>
+                                    The project involved string manipulation, conversion between numerical bases, data 
+                                    transformation logic, and modular code organization.
+                                </p>
+                            </details>
+
+                            <a href="https://github.com/OrekiHoutarouu/EncrypTexT" class="project-link" target="_blank">Click here to open the GitHub repository!</a>
+                        </div>
+                    </div>
+                </div>
             </article>
         </section>
     </main>
 
     <footer>
-
+        Portfolio developed by <a href="https://github.com/OrekiHoutarouu" target="_blank" id="footer-link">Samuel Campelo</a> in 2026
     </footer>
 
     <script src="static/js/script.js"></script>
