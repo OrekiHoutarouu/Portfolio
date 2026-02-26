@@ -23,10 +23,10 @@ In addition, the portfolio was designed with special attention to user experienc
 ## Website preview 👀
 
 ### Light theme preview ☀️
-<img src="https://github.com/OrekiHoutarouu/Portfolio/blob/main/static/img/Preview_white.png" width="60%">
+<img src="static/img/Preview_white.png" width="60%">
 
 ### Dark theme preview 🌒
-<img src="https://github.com/OrekiHoutarouu/Portfolio/blob/main/static/img/Preview_dark.png" width="60%">
+<img src="static/img/Preview_dark.png" width="60%">
 
 ## Contributions 🤝
 
