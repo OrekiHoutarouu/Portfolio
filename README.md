@@ -22,11 +22,10 @@ In addition, the portfolio was designed with special attention to user experienc
 
 ## Website preview 👀
 
-### Light theme preview ☀️
-<img src="static/img/Preview_white.png" width="60%">
-
-### Dark theme preview 🌒
-<img src="static/img/Preview_dark.png" width="60%">
+<p align="center">
+  <img src="static/img/Preview_white.png" width="45%"> 
+  <img src="static/img/Preview_dark.png" width="45%"> 
+</p>
 
 ## Contributions 🤝
 
